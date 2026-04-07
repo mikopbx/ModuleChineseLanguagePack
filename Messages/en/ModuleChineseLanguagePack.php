@@ -3,6 +3,6 @@
 declare(strict_types=1);
 
 return [
-    'BreadcrumbModuleChineseLanguagePack' => 'Chinese Language Pack',
+    'BreadcrumbModuleChineseLanguagePack' => 'Language Pack - Chinese',
     'SubHeaderModuleChineseLanguagePack' => 'Complete Chinese language support for MikoPBX',
 ];
