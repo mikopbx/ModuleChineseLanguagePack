@@ -1,25 +1,28 @@
 <div class="ui segment">
+    <div id="languagepack-sounds-progress" class="ui segment" style="margin-bottom: 1em;"></div>
+
     <div class="ui labels" style="margin-bottom: 1em;">
-        <a class="ui basic label">
+        <a class="ui basic label"
+           href="{{ url('module-chinese-language-pack/module-chinese-language-pack/sounds') }}">
             <i class="microphone icon"></i> {{ soundFileCount }}
-            {{ t._('mlp_zh_Hans_SoundFiles') }}
+            {{ t._('mlp_zh_SoundFiles') }}
         </a>
         <a class="ui basic label">
             <i class="file alternate icon"></i> {{ translationFileCount }}
-            {{ t._('mlp_zh_Hans_TranslationFiles') }}
+            {{ t._('mlp_zh_TranslationFiles') }}
         </a>
         <a class="ui basic label">
             <i class="language icon"></i> {{ translationStringCount }}
-            {{ t._('mlp_zh_Hans_TranslationStrings') }}
+            {{ t._('mlp_zh_TranslationStrings') }}
         </a>
     </div>
 
     <div class="ui info message">
         <p>
             <i class="info circle icon"></i>
-            {{ t._('mlp_zh_Hans_Step1') }}
+            {{ t._('mlp_zh_Step1') }}
             <a href="{{ url('general-settings/modify') }}" class="ui" style="margin-left: 0.5em;">
-                <i class="cog icon"></i>{{ t._('mlp_zh_Hans_GoToGeneralSettings') }}
+                <i class="cog icon"></i>{{ t._('mlp_zh_GoToGeneralSettings') }}
             </a>
         </p>
     </div>
@@ -27,9 +30,9 @@
     <div class="ui message">
         <p>
             <i class="users icon"></i>
-            {{ t._('mlp_zh_Hans_HelpTranslate') }}
+            {{ t._('mlp_zh_HelpTranslate') }}
             <a href="https://weblate.mikopbx.com/projects/mikopbx/" target="_blank" style="margin-left: 0.5em;">
-                <i class="external alternate icon"></i>{{ t._('mlp_zh_Hans_WeblateLink') }}
+                <i class="external alternate icon"></i>{{ t._('mlp_zh_WeblateLink') }}
             </a>
         </p>
     </div>
